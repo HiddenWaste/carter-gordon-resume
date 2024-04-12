@@ -1,0 +1,150 @@
+{
+    "basics": {
+      "name": "Carter Gordon",
+      "label": "Sound Designer and Programmer",
+      "image": "https://i.imgur.com/tHA5l7T.jpg",
+      "email": "cartergordon13@gmail.com",
+      "phone": "605-940-4177",
+      "location": {
+        "city": "Madison",
+        "countryCode": "US"
+      },
+      "url": "hiddenwaste.github.io",
+      "summary": "Undergraduate student in Digital Sound Design and Artificial Intelligence. Hoping to at some point work on spatial audio engines for AR / VR",
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "Carter Gordon",
+          "url": "https://www.linkedin.com/in/carter-gordon/"
+        },
+        {
+          "network": "GitHub",
+          "username": "HiddenWaste",
+          "url": "https://github.com/HiddenWaste"
+        },
+        {
+          "network": "Spotify",
+          "username": "cartergordon13",
+          "url": "https://open.spotify.com/user/cartergordon13"
+        }
+      ]
+    },
+    "work": [
+      {
+        "position": "Bartender",
+        "company": "The Office Bar and Grill",
+        "startDate": "August 2022",
+        "summary": "",
+        "location": "Madison, SD",
+        "highlights": []
+      },
+      {
+        "position": "Closing Expert",
+        "company": "Target",
+        "startDate": "May 2021",
+        "summary": "",
+        "location": "Sioux Fall, SD",
+        "highlights": []
+      },
+      {
+        "position": "Bookseller",
+        "company": "Barnes & Noble",
+        "startDate": "April 2019",
+        "endDate": "March 2020",
+        "summary": "",
+        "location": "Sioux Fall, SD",
+        "highlights": []
+      }
+    ],
+    "projects": [
+      {
+        "name": "Resonant Soundscapes",
+        "description": "Developed a set of reusable CloudFormation templates to automate the deployment of cloud infrastructure resources on AWS.",
+        "url": "https://example.com"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Dakota State University",
+        "area": "Digital Sound Design, and Artificial Intelligence",
+        "studyType": "Undergraduate",
+        "location": "Madison, SD",
+        "startDate": "2022",
+        "endDate": "2025",
+        "score": "In-Progress",
+        "courses": ["Predictive Analytics", "Applications of Deep Learning", "Algorithms"]
+      }
+    ],
+    "certificates": [
+      {
+        "title": "Docker Certified Associate (DCA)",
+        "date": null,
+        "issuer": "Docker",
+        "score": "",
+        "url": null
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "level": "Advanced",
+        "keywords": []
+      },
+      {
+        "name": "Bash",
+        "level": "Intermediate",
+        "keywords": []
+      },
+      {
+        "name": "Prometheus/Grafana"
+      },
+      {
+        "name": "Jenkins/Travis CI"
+      },
+      {
+        "name": "Docker/Kubernetes"
+      },
+      {
+        "name": "AWS/Google Cloud"
+      }
+    ],
+    "softSkills": [
+      {
+        "name": "Creativity"
+      },
+      {
+        "name": "Adaptability"
+      },
+      {
+        "name": "Quick-Learner"
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Fluent"
+      },
+      {
+        "language": "Spanish",
+        "fluency": "Intermediate"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Music",
+        "keywords": []
+      },
+      {
+        "name": "Coding",
+        "keywords": []
+      },
+      {
+        "name": "Reading",
+        "keywords": []
+      }
+    ],
+    "meta": {
+      "template": "classic",
+      "lang": "en"
+    }
+  }

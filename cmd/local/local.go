@@ -1,7 +1,6 @@
 package local
 
 import (
-	"github.com/spf13/cobra"
 	"resumme-builder/internal/models"
 	"resumme-builder/internal/pkg/parser"
 	"resumme-builder/internal/pkg/pdf"
@@ -9,6 +8,8 @@ import (
 	"resumme-builder/internal/services"
 	"resumme-builder/internal/utils/fs"
 	"resumme-builder/internal/utils/logger"
+
+	"github.com/spf13/cobra"
 )
 
 var resumeDataFile string

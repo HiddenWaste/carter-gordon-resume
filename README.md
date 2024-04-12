@@ -28,7 +28,7 @@ Create a JSON file with your resume data. You can specify the file path using th
 Run the following command to generate the resume in PDF and HTML formats:
 
 ```shell
-make local file="data/resume.json"
+make local file="C:\Users\Carter\OneDrive - Dakota State University\Documents\obsidian-sync\carter-gordon-resume\resume.json"
 ```
 
 Alternatively, you can use the following command:
