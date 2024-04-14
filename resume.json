@@ -2,7 +2,7 @@
     "basics": {
       "name": "Carter Gordon",
       "label": "Sound Designer and Programmer",
-      "image": "https://i.imgur.com/tHA5l7T.jpg",
+      "image": "https://imgur.com/6xBEVZp",
       "email": "cartergordon13@gmail.com",
       "phone": "605-940-4177",
       "location": {
@@ -34,7 +34,7 @@
         "position": "Bartender",
         "company": "The Office Bar and Grill",
         "startDate": "August 2022",
-        "summary": "",
+        "summary": "Tasked with either opening, closing, or sometimes both. Ensure smooth operations of multiple facets of the resturaunt, train and manage new front of house staff, and general bartending tasks were some of my most prominent roles here.",
         "location": "Madison, SD",
         "highlights": []
       },
@@ -42,7 +42,7 @@
         "position": "Closing Expert",
         "company": "Target",
         "startDate": "May 2021",
-        "summary": "",
+        "summary": "Started off hired as Closing Expert, I have since been trained in multiple other departments of our store, and am one of the few employees to do so. I have been tasked with stocking Product, assisting customers, organizing shelves, fullfillment, guest services, online orders, and many, many other facets of the store.",
         "location": "Sioux Fall, SD",
         "highlights": []
       },
@@ -51,7 +51,7 @@
         "company": "Barnes & Noble",
         "startDate": "April 2019",
         "endDate": "March 2020",
-        "summary": "",
+        "summary": "My main priorities were throughout the store. Make sure product is in presentable condition and not in dissaray, assisting customers in finding what they need or placing orders for them, and cashiering were where I spent most of my work here",
         "location": "Sioux Fall, SD",
         "highlights": []
       }
@@ -75,48 +75,71 @@
         "courses": ["Predictive Analytics", "Applications of Deep Learning", "Algorithms"]
       }
     ],
-    "certificates": [
+    "Awards / Accomplishments": [
       {
-        "title": "Docker Certified Associate (DCA)",
-        "date": null,
-        "issuer": "Docker",
-        "score": "",
-        "url": null
+        "title": "Research Symposium: Outstanding Undergraduate",
+        "date": "4-18-24",
+        "issued-by": "DSU"
+      },
+      {
+        "title": "Research Symposium: 1st Place Poster",
+        "date": "4-18-24",
+        "issued-by": "DSU"
+      },
+      {
+        "title": "MUDAC 2024",
+        "date": "4-06-24",
+        "issued-by": "Minnesota State, Mankato"
       }
     ],
     "skills": [
       {
         "name": "Python",
         "level": "Advanced",
-        "keywords": []
+        "keywords": ["AI, ML, Data Analysis"]
       },
       {
-        "name": "Bash",
+        "name": "C / C# / C++",
         "level": "Intermediate",
-        "keywords": []
+        "keywords": ["coding"]
       },
       {
-        "name": "Prometheus/Grafana"
+        "name": "Supercollider",
+        "level": "Intermediate",
+        "keywords": ["audio, coding"]
       },
       {
-        "name": "Jenkins/Travis CI"
+        "name": "Reaper",
+        "level": "Advanced",
+        "keywords": ["audio, DAW, production, recording, mixing"]
       },
       {
-        "name": "Docker/Kubernetes"
+        "name": "Javascript",
+        "level": "Intermediate",
+        "keywords": ["coding, projects"]
       },
       {
-        "name": "AWS/Google Cloud"
+        "name": "Github"
+      },
+      {
+        "name": "Raspberry Pi"
+      },
+      {
+        "name": "Arduino / Simple Robotics"
       }
     ],
     "softSkills": [
       {
-        "name": "Creativity"
+        "name": "Creative"
       },
       {
-        "name": "Adaptability"
+        "name": "Adaptable"
       },
       {
         "name": "Quick-Learner"
+      },
+      {
+        "name": "Highly Sociable"
       }
     ],
     "languages": [
@@ -132,15 +155,15 @@
     "interests": [
       {
         "name": "Music",
-        "keywords": []
+        "keywords": ["audio, DAW, production, recording, mixing"]
       },
       {
         "name": "Coding",
-        "keywords": []
+        "keywords": ["Projects, Software, AI, ML, Data Analysis"]
       },
       {
         "name": "Reading",
-        "keywords": []
+        "keywords": ["Philosophy, Psychology, Poltiical Science, Sociology, History"]
       }
     ],
     "meta": {
