@@ -1,7 +1,7 @@
-{{if .awards}}
+{{if .Awards}}
     <div class="awards">
         <div class="subtitle">Awards</div>
-        {{ range .awards}}
+        {{ range .Awards}}
             <div class="item">
                 <a {{if .URL}}href="{{.URL}}"{{end}} >{{.Title}}</a>
                 {{if .Score}}
