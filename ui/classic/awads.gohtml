@@ -1,7 +1,7 @@
-{{if .Certificates}}
-    <div class="certifications">
-        <div class="subtitle">Certifications</div>
-        {{ range .Certificates}}
+{{if .awards}}
+    <div class="awards">
+        <div class="subtitle">Awards</div>
+        {{ range .awards}}
             <div class="item">
                 <a {{if .URL}}href="{{.URL}}"{{end}} >{{.Title}}</a>
                 {{if .Score}}

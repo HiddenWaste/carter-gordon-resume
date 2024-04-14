@@ -1,8 +1,8 @@
 {
     "basics": {
-      "name": "Carter Gordon",
-      "label": "Sound Designer and Programmer",
-      "image": "https://imgur.com/6xBEVZp",
+      "name": "Gordon Carter",
+      "label": "Sound Designer, Programmer, Researcher",
+      "image": "https://imgur.com/a/AvnjlqS",
       "email": "cartergordon13@gmail.com",
       "phone": "605-940-4177",
       "location": {
@@ -59,8 +59,8 @@
     "projects": [
       {
         "name": "Resonant Soundscapes",
-        "description": "Developed a set of reusable CloudFormation templates to automate the deployment of cloud infrastructure resources on AWS.",
-        "url": "https://example.com"
+        "description": "Dr. Tate Carson and I traveled to all 13 state parks in South Dakota and took ambisonics recordings at each park. We then created a web app that placed them geospatially, almost like pokemon go, across DSU campus as they are laid out in South Dakota. We also made compositions from the recordings.",
+         "url": "https://example.com"
       }
     ],
     "education": [
@@ -73,23 +73,36 @@
         "endDate": "2025",
         "score": "In-Progress",
         "courses": ["Predictive Analytics", "Applications of Deep Learning", "Algorithms"]
+      },
+      {
+        "institution": "Dakota State University",
+        "area": "Creative Coding",
+        "studyType": "Certificate",
+        "location": "Madison, SD",
+        "endDate": "2025",
+        "score": "In-Progress"
       }
     ],
-    "Awards / Accomplishments": [
+    "awards": [
       {
         "title": "Research Symposium: Outstanding Undergraduate",
         "date": "4-18-24",
-        "issued-by": "DSU"
+        "issued-by": "Dakota State University"
       },
       {
         "title": "Research Symposium: 1st Place Poster",
         "date": "4-18-24",
-        "issued-by": "DSU"
+        "issued-by": "Dakota State University"
       },
       {
         "title": "MUDAC 2024",
         "date": "4-06-24",
         "issued-by": "Minnesota State, Mankato"
+      },
+      {
+        "title": "DSU Data Analytics Competition 4th Place",
+        "date": "3-18-24",
+        "issued-by": "Dakota State University"
       }
     ],
     "skills": [
@@ -99,7 +112,7 @@
         "keywords": ["AI, ML, Data Analysis"]
       },
       {
-        "name": "C / C# / C++",
+        "name": "C, C#, C++",
         "level": "Intermediate",
         "keywords": ["coding"]
       },
@@ -118,15 +131,13 @@
         "level": "Intermediate",
         "keywords": ["coding, projects"]
       },
-      {
-        "name": "Github"
-      },
-      {
-        "name": "Raspberry Pi"
-      },
-      {
-        "name": "Arduino / Simple Robotics"
-      }
+      {"name": "Ableton"},
+      {"name": "Linux, Windows, Mac"},
+      {"name": "Git"},
+      {"name": "Raspberry Pi"},
+      {"name": "Arduino / Simple Robotics"},
+      {"name": "Documentation"},
+      {"name": "Live Sound Mixing"}
     ],
     "softSkills": [
       {
