@@ -3,9 +3,9 @@
         <div class="subtitle">Awards</div>
         {{ range .Awards}}
             <div class="item">
-                <a {{if .URL}}href="{{.URL}}"{{end}} >{{.Title}}</a>
-                {{if .Score}}
-                    <small class="value">Score: {{.Score}}</small>
+                <a> {{.Title}}</a>
+                {{if .Date}}
+                    <small class="value">Date: {{.Date}}</small>
                 {{end}}
             </div>
         {{end}}
