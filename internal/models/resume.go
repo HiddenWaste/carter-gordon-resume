@@ -5,6 +5,7 @@ import "resumme-builder/internal/utils/lang"
 type Resume struct {
 	Basics       Basics        `json:"basics"`
 	Work         []Work        `json:"work"`
+	Awards       []Awards      `json:"awards"`
 	Projects     []Project     `json:"projects"`
 	Education    []Education   `json:"education"`
 	Certificates []Certificate `json:"certificates"`
@@ -80,6 +81,12 @@ type Certificate struct {
 	URL    string `json:"url"`
 }
 
+type Awards struct {
+	Title  string `json:"title"`
+	Date   string `json:"date"`
+	Issuer string `json:"issued-by"`
+}
+
 type Skill struct {
 	Name     string   `json:"name"`
 	Level    string   `json:"level"`
@@ -104,6 +111,7 @@ type Meta struct {
 type ResumeLabels struct {
 	Education   string
 	Experiences string
+	Awards      string
 	Projects    string
 	Skills      string
 	SoftSkills  string
