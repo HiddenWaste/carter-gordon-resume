@@ -66,7 +66,17 @@
     "education": [
       {
         "institution": "Dakota State University",
-        "area": "Digital Sound Design, and Artificial Intelligence",
+        "area": "Digital Sound Design",
+        "studyType": "Undergraduate",
+        "location": "Madison, SD",
+        "startDate": "2021",
+        "endDate": "2025",
+        "score": "In-Progress",
+        "courses": ["Audio Production I - III", "Recording Sessions", "Audio Forensics"]
+      },
+      {
+        "institution": "Dakota State University",
+        "area": "Artificial Intelligence",
         "studyType": "Undergraduate",
         "location": "Madison, SD",
         "startDate": "2022",
@@ -80,7 +90,8 @@
         "studyType": "Certificate",
         "location": "Madison, SD",
         "endDate": "2025",
-        "score": "In-Progress"
+        "score": "In-Progress",
+        "courses": ["Creative Coding", "Interdisciplinary Coding"]
       }
     ],
     "awards": [
@@ -137,7 +148,8 @@
       {"name": "Raspberry Pi"},
       {"name": "Arduino / Simple Robotics"},
       {"name": "Documentation"},
-      {"name": "Live Sound Mixing"}
+      {"name": "Live Sound Mixing"},
+      {"name": "Data Analysis"}
     ],
     "softSkills": [
       {
