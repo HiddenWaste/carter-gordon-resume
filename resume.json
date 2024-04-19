@@ -43,7 +43,7 @@
         "company": "Target",
         "startDate": "May 2021",
         "summary": "Started off hired as Closing Expert, I have since been trained in multiple other departments of our store, and am one of the few employees to do so. I have been tasked with stocking Product, assisting customers, organizing shelves, fullfillment, guest services, online orders, and many, many other facets of the store.",
-        "location": "Sioux Fall, SD",
+        "location": "Sioux Falls, SD",
         "highlights": []
       },
       {
@@ -52,7 +52,15 @@
         "startDate": "April 2019",
         "endDate": "March 2020",
         "summary": "My main priorities were throughout the store. Make sure product is in presentable condition and not in dissaray, assisting customers in finding what they need or placing orders for them, and cashiering were where I spent most of my work here",
-        "location": "Sioux Fall, SD",
+        "location": "Sioux Falls, SD",
+        "highlights": []
+      },
+      {
+        "position": "Plumber's Apprentice",
+        "company": "Brandon Plumbing & Heating",
+        "startDate": "April 2014",
+        "summary": "Started off doing odds and ends around the main shop. Scrapping, cleaning, organizing, and the like. Starting in summer of '16, I would join a plumber out in the field. Both on new construction sites and current installation service calls. I have installed multiple AC/Furnace systems almost entirely by myself. Have only done very occasional work since 2022",
+        "location": "Brandon, SD",
         "highlights": []
       }
     ],
@@ -96,14 +104,10 @@
     ],
     "awards": [
       {
-        "title": "Research Symposium: Outstanding Undergraduate",
+        "title": "Research Symposium: 1st Place Research Poster",
         "date": "4-18-24",
-        "issued-by": "Dakota State University"
-      },
-      {
-        "title": "Research Symposium: 1st Place Poster",
-        "date": "4-18-24",
-        "issued-by": "Dakota State University"
+        "issued-by": "Dakota State University",
+        "summary": "1st place for the poster design for Resonant Landscapes, my SRI research project with Dr. Tate Carson. Further explained in Projects, and relative website."
       },
       {
         "title": "MUDAC 2024",
