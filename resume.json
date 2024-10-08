@@ -1,7 +1,7 @@
 {
     "basics": {
       "name": "Gordon Carter",
-      "label": "Sound Designer, Programmer, Researcher",
+      "label": "Sound Designer, Creative Coder, Researcher",
       "image": "https://imgur.com/a/AvnjlqS",
       "email": "cartergordon13@gmail.com",
       "phone": "605-940-4177",
@@ -10,7 +10,7 @@
         "countryCode": "US"
       },
       "url": "hiddenwaste.github.io",
-      "summary": "Undergraduate student in Digital Sound Design and Artificial Intelligence. Hoping to at some point work on spatial audio engines for AR / VR",
+      "summary": "Undergraduate student in Digital Sound Design and Artificial Intelligence.",
       "profiles": [
         {
           "network": "LinkedIn",
@@ -62,7 +62,8 @@
         "summary": "Started off doing odds and ends around the main shop. Scrapping, cleaning, organizing, and the like. Starting in summer of '16, I would join a plumber out in the field. Both on new construction sites and current installation service calls. I have installed multiple AC/Furnace systems almost entirely by myself. Have only done very occasional work since 2022",
         "location": "Brandon, SD",
         "highlights": []
-      }
+      },
+        
     ],
     "projects": [
       {
