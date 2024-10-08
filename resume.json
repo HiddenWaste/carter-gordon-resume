@@ -39,9 +39,20 @@
         "highlights": []
       },
       {
+        "position": "Sound Engineer",
+        "company": "Madison High-School",
+        "startDate": "September 2024",
+        "endDate": "TBD",
+        "summary": "My job was to help both map out the first setup for this high school, as well as inform the band director on what equipment was needed and why. With this setup I then ran sound for their marching band show for the school year",
+        "location": "Madison, SD",
+        "highlights": []
+      },
+
+      {
         "position": "Closing Expert",
         "company": "Target",
         "startDate": "May 2021",
+        "endDate": "September 2023",
         "summary": "Started off hired as Closing Expert, I have since been trained in multiple other departments of our store, and am one of the few employees to do so. I have been tasked with stocking Product, assisting customers, organizing shelves, fullfillment, guest services, online orders, and many, many other facets of the store.",
         "location": "Sioux Falls, SD",
         "highlights": []
@@ -54,15 +65,7 @@
         "summary": "My main priorities were throughout the store. Make sure product is in presentable condition and not in dissaray, assisting customers in finding what they need or placing orders for them, and cashiering were where I spent most of my work here",
         "location": "Sioux Falls, SD",
         "highlights": []
-      },
-      {
-        "position": "Plumber's Apprentice",
-        "company": "Brandon Plumbing & Heating",
-        "startDate": "April 2014",
-        "summary": "Started off doing odds and ends around the main shop. Scrapping, cleaning, organizing, and the like. Starting in summer of '16, I would join a plumber out in the field. Both on new construction sites and current installation service calls. I have installed multiple AC/Furnace systems almost entirely by myself. Have only done very occasional work since 2022",
-        "location": "Brandon, SD",
-        "highlights": []
-      },
+      }
         
     ],
     "projects": [
