@@ -1,7 +1,7 @@
 {
     "basics": {
       "name": "Gordon Carter",
-      "label": "Sound Designer, Creative Coder, Researcher",
+      "label": "Programmer, Researcher, Designer",
       "image": "https://imgur.com/a/AvnjlqS",
       "email": "cartergordon13@gmail.com",
       "phone": "605-940-4177",
@@ -39,10 +39,10 @@
         "highlights": []
       },
       {
-        "position": "Sound Engineer",
+        "position": "Audio Engineer",
         "company": "Madison High-School",
         "startDate": "September 2024",
-        "endDate": "TBD",
+        "endDate": "November 2024",
         "summary": "My job was to help both map out the first setup for this high school, as well as inform the band director on what equipment was needed and why. With this setup I then ran sound for their marching band show for the school year",
         "location": "Madison, SD",
         "highlights": []
@@ -73,6 +73,11 @@
         "name": "Resonant Soundscapes",
         "description": "Dr. Tate Carson and I traveled to all 13 state parks in South Dakota and took ambisonics recordings at each park. We then created a web app that placed them geospatially, almost like pokemon go, across DSU campus as they are laid out in South Dakota. We also made compositions from the recordings.",
          "url": "https://example.com"
+      },
+      {
+        "name": "P.A.C.E",
+        "description": "A Prototyping-system for Audiovisual Creative Endeavors. A system I have designed and built to create unique audiovisual interactions",
+        "url": "https://example.com"
       }
     ],
     "education": [
@@ -158,20 +163,6 @@
       {"name": "Documentation"},
       {"name": "Live Sound Mixing"},
       {"name": "Data Analysis"}
-    ],
-    "softSkills": [
-      {
-        "name": "Creative"
-      },
-      {
-        "name": "Adaptable"
-      },
-      {
-        "name": "Quick-Learner"
-      },
-      {
-        "name": "Highly Sociable"
-      }
     ],
     "languages": [
       {
