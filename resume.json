@@ -1,16 +1,16 @@
 {
     "basics": {
       "name": "Gordon Carter",
-      "label": "Sound Designer, Creative Coder, Researcher",
+      "label": "Programmer, Researcher, Designer",
       "image": "https://imgur.com/a/AvnjlqS",
       "email": "cartergordon13@gmail.com",
       "phone": "605-940-4177",
       "location": {
-        "city": "Madison",
+        "city": "Brandon",
         "countryCode": "US"
       },
       "url": "hiddenwaste.github.io",
-      "summary": "Undergraduate student in Digital Sound Design and Artificial Intelligence.",
+      "summary": "B.S. in Artificial Intelligence and a B.S. in Digital Sound Design",
       "profiles": [
         {
           "network": "LinkedIn",
@@ -21,11 +21,6 @@
           "network": "GitHub",
           "username": "HiddenWaste",
           "url": "https://github.com/HiddenWaste"
-        },
-        {
-          "network": "Spotify",
-          "username": "cartergordon13",
-          "url": "https://open.spotify.com/user/cartergordon13"
         }
       ]
     },
@@ -42,7 +37,7 @@
         "position": "Sound Engineer",
         "company": "Madison High-School",
         "startDate": "September 2024",
-        "endDate": "TBD",
+        "endDate": "November 2024",
         "summary": "My job was to help both map out the first setup for this high school, as well as inform the band director on what equipment was needed and why. With this setup I then ran sound for their marching band show for the school year",
         "location": "Madison, SD",
         "highlights": []
@@ -71,8 +66,12 @@
     "projects": [
       {
         "name": "Resonant Soundscapes",
-        "description": "Dr. Tate Carson and I traveled to all 13 state parks in South Dakota and took ambisonics recordings at each park. We then created a web app that placed them geospatially, almost like pokemon go, across DSU campus as they are laid out in South Dakota. We also made compositions from the recordings.",
+        "description": "Dr. Tate Carson and I traveled to all 13 state parks in South Dakota and took ambisonics recordings at each park. We then created a web app that placed them geospatially, almost like pokemon go, across DSU campus as they are laid out in South Dakota. We also made compositions from the recordings. Linked below is our published research paper on this project.",
          "url": "https://example.com"
+      },
+      {
+        "name": "P.A.C.E.",
+        "description": "Prototyping-System for Audiovisual Creative Endeavors, a passion project of mine I constructed and coded myself and presented at the 2025 research symposium. Uses Python, Arduino, SuperCollider, and Processing as main programming languages"
       }
     ],
     "education": [
@@ -83,7 +82,7 @@
         "location": "Madison, SD",
         "startDate": "2021",
         "endDate": "2025",
-        "score": "In-Progress",
+        "score": "Completed",
         "courses": ["Audio Production I - III", "Recording Sessions", "Audio Forensics"]
       },
       {
@@ -93,7 +92,7 @@
         "location": "Madison, SD",
         "startDate": "2022",
         "endDate": "2025",
-        "score": "In-Progress",
+        "score": "Completed",
         "courses": ["Predictive Analytics", "Applications of Deep Learning", "Algorithms"]
       },
       {
@@ -102,7 +101,7 @@
         "studyType": "Certificate",
         "location": "Madison, SD",
         "endDate": "2025",
-        "score": "In-Progress",
+        "score": "Completed",
         "courses": ["Creative Coding", "Interdisciplinary Coding"]
       }
     ],
@@ -110,8 +109,7 @@
       {
         "title": "Research Symposium: 1st Place Research Poster",
         "date": "4-18-24",
-        "issued-by": "Dakota State University",
-        "summary": "1st place for the poster design for Resonant Landscapes, my SRI research project with Dr. Tate Carson. Further explained in Projects, and relative website."
+        "issued-by": "Dakota State University"
       },
       {
         "title": "MUDAC 2024",
@@ -119,9 +117,34 @@
         "issued-by": "Minnesota State, Mankato"
       },
       {
+        "title": "MICS Programming Competition 3rd Place",
+        "date": "4-4-25",
+        "issued-by": "MICS"
+      },
+      {
         "title": "DSU Data Analytics Competition 4th Place",
         "date": "3-18-24",
-        "issued-by": "Dakota State University"
+        "issued-by": "Dakota State University, Sanford Health"
+      },
+      {
+        "title": "DSU Data Analytics Competition Participant",
+        "date": "3-19-25",
+        "issued-by": "Dakota State University, Sanford Health"
+      },
+      {
+        "title": "MICS Robotics Competition Participant",
+        "date": "4-4-25",
+        "issued-by": "MICS"
+      },
+      {
+        "title": "Research Symposium: Presenter",
+        "date": "3-20-25",
+        "issued-by":"Dakota State University"
+      },
+      {
+        "title": "Guest Speaker in CSC379",
+        "date": "4-28-25, 4-30-25",
+        "issued-by": "Dr. Tom Halverson"
       }
     ],
     "skills": [
@@ -137,7 +160,7 @@
       },
       {
         "name": "Supercollider",
-        "level": "Intermediate",
+        "level": "Advanced",
         "keywords": ["audio, coding"]
       },
       {
@@ -160,18 +183,10 @@
       {"name": "Data Analysis"}
     ],
     "softSkills": [
-      {
-        "name": "Creative"
-      },
-      {
-        "name": "Adaptable"
-      },
-      {
-        "name": "Quick-Learner"
-      },
-      {
-        "name": "Highly Sociable"
-      }
+      {"name": "Creative"},
+      {"name": "Adaptable"},
+      {"name": "Quick-Learner"},
+      {"name": "Highly Sociable"}
     ],
     "languages": [
       {
