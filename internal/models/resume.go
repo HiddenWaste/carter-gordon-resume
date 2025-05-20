@@ -6,7 +6,7 @@ type Resume struct {
 	Basics       Basics         `json:"basics"`
 	Work         []Work         `json:"work"`
 	Projects     []Project      `json:"projects"`
-	Awards       []Award        `json: "awards"`
+	Awards       []AwardCategory `json:"awards"`
 	Publications []Publications `json:"publications"`
 	Education    []Education    `json:"education"`
 	Certificates []Certificate  `json:"certificates"`
@@ -110,9 +110,14 @@ type Interest struct {
 }
 
 type Award struct {
-	Title  string `json:"title"`
-	Date   string `json:"date"`
-	Issuer string `json:"issued-by"`
+    Title       string `json:"title"`
+    Date        string `json:"date"`
+    Description string `json:"description,omitempty"`
+}
+
+type AwardCategory struct {
+    Category string  `json:"category"`
+    Items    []Award `json:"items"`
 }
 
 type Meta struct {

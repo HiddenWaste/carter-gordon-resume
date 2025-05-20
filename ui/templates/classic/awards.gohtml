@@ -1,12 +1,18 @@
 {{if .Awards}}
     <div class="awards">
-        <div class="subtitle">Awards</div>
-        {{ range .Awards}}
-            <div class="item">
-                <a> {{.Title}}</a>
-                {{if .Date}}
-                    <small class="value">Date: {{.Date}}</small>
-                {{end}}
+        <div class="subtitle">Awards & Recognition</div>
+        
+        {{range .Awards}}
+            <div class="award-category">
+                <strong>{{.Category}}:</strong>
+                <ul>
+                    {{range .Items}}
+                        <li class="value">
+                            {{.Title}} ({{.Date}})
+                            {{if .Description}} - {{.Description}}{{end}}
+                        </li>
+                    {{end}}
+                </ul>
             </div>
         {{end}}
     </div>

@@ -1,7 +1,6 @@
 <div class="about">
     <div class="name">
-        <div>{{getLastName .Name}}</div>
-        <div>{{getFirstName .Name}}</div>
+        <div>{{getLastName .Name}} {{getFirstName .Name}}<br></div>
     </div>
 
     <div class="job-position">{{ .Label }}</div>
@@ -10,15 +9,5 @@
         <div class="profile-desc">
             {{ .Summary }}
         </div>
-    {{end}}
-</div>
-
-
-<div class="photo">
-    {{if .Image}}
-        <img
-                class="round-img"
-                src="{{.Image}}"
-        />
     {{end}}
 </div>

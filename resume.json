@@ -72,7 +72,7 @@
       },
       {
         "name": "P.A.C.E.",
-        "description": "Prototyping-System for Audiovisual Creative Endeavors, a passion project of mine I constructed and coded myself and presented at the 2025 research symposium. Uses Python, Arduino, SuperCollider, and Processing as main programming languages",
+        "description": "Prototyping-System for Audiovisual Creative Endeavors, a passion project of mine I constructed and coded myself and presented at the 2025 research symposium. Uses Python, Arduino, SuperCollider, and Processing as main programming languages. The goal was to create a new platform for audiovisual art and to explore possible interactions in the creative coding space.",
         "url": "https://linkfr.ee/pace",
         "urlLabel": "P.A.C.E. Project Site"
       }
@@ -106,47 +106,42 @@
       }
     ],
     "awards": [
+  {
+    "category": "Research Excellence",
+    "items": [
       {
         "title": "Research Symposium: 1st Place Research Poster",
-        "date": "4-18-24",
-        "issued-by": "Dakota State University"
-      },
-      {
-        "title": "MUDAC 2024",
-        "date": "4-06-24",
-        "issued-by": "Minnesota State, Mankato"
-      },
-      {
-        "title": "MICS Programming Competition 3rd Place",
-        "date": "4-4-25",
-        "issued-by": "MICS"
-      },
-      {
-        "title": "DSU Data Analytics Competition 4th Place",
-        "date": "3-18-24",
-        "issued-by": "Dakota State University, Sanford Health"
-      },
-      {
-        "title": "DSU Data Analytics Competition Participant",
-        "date": "3-19-25",
-        "issued-by": "Dakota State University, Sanford Health"
-      },
-      {
-        "title": "MICS Robotics Competition Participant",
-        "date": "4-4-25",
-        "issued-by": "MICS"
+        "date": "2024"
       },
       {
         "title": "Research Symposium: Presenter",
-        "date": "3-20-25",
-        "issued-by":"Dakota State University"
+        "date": "2025"
+      }
+    ]
+  },
+  {
+    "category": "Competition Achievements",
+    "items": [
+      {
+        "title": "MICS Programming Competition: 3rd Place",
+        "date": "2025"
       },
       {
-        "title": "Guest Speaker in CSC379",
-        "date": "4-28-25, 4-30-25",
-        "issued-by": "Dr. Tom Halverson"
+        "title": "DSU Data Analytics Competition: 4th Place",
+        "date": "2024"
       }
-    ],
+    ]
+  },
+  {
+    "category": "Professional Recognition",
+    "items": [
+      {
+        "title": "Guest Speaker, CSC379",
+        "date": "Spring 2025"
+      }
+    ]
+  }
+],
     "skills": [
       {
         "name": "Python",
@@ -178,7 +173,8 @@
       {"name": "Arduino / Simple Robotics", "level": "Advanced", "keywords": ["CS / ML"]},
       {"name": "Documentation"},
       {"name": "Live Sound Mixing", "level": "Advanced", "keywords": ["Audio Related"]},
-      {"name": "Data Analysis", "level": "Advanced", "keywords": ["CS / ML"]}
+      {"name": "Data Analysis", "level": "Advanced", "keywords": ["CS / ML"]},
+      {"name": "Web Development", "level":"Intermediate", "keywords": ["CS / ML"]}
     ],
     "languages": [
       {
