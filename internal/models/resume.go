@@ -3,17 +3,18 @@ package models
 import "resumme-builder/internal/utils/lang"
 
 type Resume struct {
-	Basics       Basics        `json:"basics"`
-	Work         []Work        `json:"work"`
-	Awards       []Awards      `json:"awards"`
-	Projects     []Project     `json:"projects"`
-	Education    []Education   `json:"education"`
-	Certificates []Certificate `json:"certificates"`
-	Skills       []Skill       `json:"skills"`
-	SoftSkills   []Skill       `json:"softSkills"`
-	Languages    []Language    `json:"languages"`
-	Interests    []Interest    `json:"interests"`
-	Meta         Meta          `json:"meta"`
+	Basics       Basics         `json:"basics"`
+	Work         []Work         `json:"work"`
+	Projects     []Project      `json:"projects"`
+	Awards       []Award        `json: "awards"`
+	Publications []Publications `json:"publications"`
+	Education    []Education    `json:"education"`
+	Certificates []Certificate  `json:"certificates"`
+	Skills       []Skill        `json:"skills"`
+	SoftSkills   []Skill        `json:"softSkills"`
+	Languages    []Language     `json:"languages"`
+	Interests    []Interest     `json:"interests"`
+	Meta         Meta           `json:"meta"`
 	Labels       ResumeLabels
 }
 
@@ -53,13 +54,24 @@ type Work struct {
 	CompanyLogo  *string  `json:"companyLogo,omitempty"`
 	TeamDetails  *string  `json:"teamDetails,omitempty"`
 	StackDetails *string  `json:"stackDetails,omitempty"`
+	CompanyURL   *string  `json:"companyURL,omitempty"`
 }
 
 type Project struct {
-	Name        string   `json:"name"`
-	Description string   `json:"description"`
-	Highlights  []string `json:"highlights"`
-	URL         string   `json:"url"`
+	Name         string   `json:"name"`
+	Description  string   `json:"description"`
+	Highlights   []string `json:"highlights"`
+	URL          string   `json:"url"`
+	StackDetails *string  `json:"stackDetails,omitempty"`
+	URLLabel    string   `json:"urlLabel"`
+}
+
+type Publications struct {
+	Name        string `json:"name"`
+	Publisher   string `json:"publisher"`
+	ReleaseDate string `json:"releaseDate"`
+	Summary     string `json:"summary"`
+	URL         string `json:"url"`
 }
 
 type Education struct {
@@ -81,12 +93,6 @@ type Certificate struct {
 	URL    string `json:"url"`
 }
 
-type Awards struct {
-	Title  string `json:"title"`
-	Date   string `json:"date"`
-	Issuer string `json:"issued-by"`
-}
-
 type Skill struct {
 	Name     string   `json:"name"`
 	Level    string   `json:"level"`
@@ -103,22 +109,30 @@ type Interest struct {
 	Keywords []string `json:"keywords"`
 }
 
+type Award struct {
+	Title  string `json:"title"`
+	Date   string `json:"date"`
+	Issuer string `json:"issued-by"`
+}
+
 type Meta struct {
 	Template string `json:"template"`
 	Lang     string `json:"lang"`
 }
 
 type ResumeLabels struct {
-	Education   string
-	Experiences string
-	Awards      string
-	Projects    string
-	Skills      string
-	SoftSkills  string
-	Languages   string
-	Interests   string
-	Profile     string
-	Since       string
+	Education    string
+	Experiences  string
+	Publications string
+	Projects     string
+	Skills       string
+	SoftSkills   string
+	Languages    string
+	Interests    string
+	Profile      string
+	Since        string
+	Certificates string
+	Socials      string
 }
 
 func (r *Resume) GetEducationLabel() string {
@@ -141,6 +155,10 @@ func (r *Resume) GetProjectsLabel() string {
 	return lang.Translate(r.Meta.Lang, ProjectsLabel)
 }
 
+func (r *Resume) GetPublicationsLabel() string {
+	return lang.Translate(r.Meta.Lang, PublicationsLabel)
+}
+
 func (r *Resume) GetLanguagesLabel() string {
 	return lang.Translate(r.Meta.Lang, LanguagesLabel)
 }
@@ -155,4 +173,12 @@ func (r *Resume) GetProfileLabel() string {
 
 func (r *Resume) GetSinceLabel() string {
 	return lang.Translate(r.Meta.Lang, SinceLabel)
+}
+
+func (r *Resume) GetCertificatesLabel() string {
+	return lang.Translate(r.Meta.Lang, CertificatesLabel)
+}
+
+func (r *Resume) GetSocialsLabel() string {
+	return lang.Translate(r.Meta.Lang, SocialsLabel)
 }

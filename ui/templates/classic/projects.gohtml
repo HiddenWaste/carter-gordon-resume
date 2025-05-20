@@ -1,0 +1,17 @@
+{{if .Projects}}
+    <div class="projects">
+        <div class="subtitle">{{.Labels.Projects}}</div>
+        {{ range .Projects}}
+            <div style="margin-bottom: 5px; display: flex; flex-direction: column;" class="item">
+                <a href="{{.URL}}" target="_blank">{{.Name}}</a>
+                {{if .Description}}
+                    <small style="font-size: 12px;" class="value">{{.Description}}</small>
+
+                    {{if .URL}}
+                        <small><a href="{{.URL}}" target="_blank">{{if .URLLabel}}{{.URLLabel}}{{else}}{{trimURLPrefix .URL}}{{end}}</a></small>
+                    {{end}}
+                {{end}}
+            </div>
+        {{end}}
+    </div>
+{{end}}

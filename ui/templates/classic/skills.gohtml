@@ -1,0 +1,82 @@
+{{if .Skills}}
+    <div class="skills">
+        <div class="subtitle">{{.Labels.Skills}}</div>
+        <div class="item">
+            <!-- Programming Languages category -->
+            <div class="skill-category">
+                <strong>Programming Languages:</strong>
+                {{ $first := true }}
+                {{ range $skill := $.Skills }}
+                    {{ $inCategory := false }}
+                    {{ if $skill.Keywords }}
+                        {{ range $keyword := $skill.Keywords }}
+                            {{ if eq $keyword "Programming Languages" }}
+                                {{ $inCategory = true }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                    {{ if $inCategory }}
+                        {{ if not $first }}, {{ end }}
+                        <span class="value">{{ $skill.Name }}</span>
+                        {{ $first = false }}
+                    {{ end }}
+                {{ end }}
+            </div>
+            
+            <!-- Audio Related category -->
+            <div class="skill-category">
+                <strong>Audio Related:</strong>
+                {{ $first := true }}
+                {{ range $skill := $.Skills }}
+                    {{ $inCategory := false }}
+                    {{ if $skill.Keywords }}
+                        {{ range $keyword := $skill.Keywords }}
+                            {{ if eq $keyword "Audio Related" }}
+                                {{ $inCategory = true }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                    {{ if $inCategory }}
+                        {{ if not $first }}, {{ end }}
+                        <span class="value">{{ $skill.Name }}</span>
+                        {{ $first = false }}
+                    {{ end }}
+                {{ end }}
+            </div>
+            
+            <!-- CS / ML category -->
+            <div class="skill-category">
+                <strong>CS / ML:</strong>
+                {{ $first := true }}
+                {{ range $skill := $.Skills }}
+                    {{ $inCategory := false }}
+                    {{ if $skill.Keywords }}
+                        {{ range $keyword := $skill.Keywords }}
+                            {{ if eq $keyword "CS / ML" }}
+                                {{ $inCategory = true }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                    {{ if $inCategory }}
+                        {{ if not $first }}, {{ end }}
+                        <span class="value">{{ $skill.Name }}</span>
+                        {{ $first = false }}
+                    {{ end }}
+                {{ end }}
+            </div>
+            
+            <!-- Other category (for skills without keywords) -->
+            <div class="skill-category">
+                <strong>Other:</strong>
+                {{ $first := true }}
+                {{ range $skill := $.Skills }}
+                    {{ if or (not $skill.Keywords) (eq (len $skill.Keywords) 0) }}
+                        {{ if not $first }}, {{ end }}
+                        <span class="value">{{ $skill.Name }}</span>
+                        {{ $first = false }}
+                    {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+{{end}}

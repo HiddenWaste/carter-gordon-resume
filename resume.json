@@ -5,11 +5,11 @@
       "email": "cartergordon13@gmail.com",
       "phone": "605-940-4177",
       "location": {
-        "city": "Brandon",
+        "city": "Brandon, SD",
         "countryCode": "US"
       },
-      "url": "hiddenwaste.github.io",
-      "summary": "B.S. in Artificial Intelligence and a B.S. in Digital Sound Design",
+      "url": "https://example.com",
+      "summary": "B.S. in Artificial Intelligence, B.S. in Digital Sound Design, and a Creative Coding Certificate",
       "profiles": [
         {
           "network": "LinkedIn",
@@ -28,7 +28,8 @@
         "position": "Bartender",
         "company": "The Office Bar and Grill",
         "startDate": "August 2022",
-        "summary": "Tasked with either opening, closing, or sometimes both. Ensure smooth operations of multiple facets of the resturaunt, train and manage new front of house staff, and general bartending tasks were some of my most prominent roles here.",
+        "endDate": "May 2025",
+        "summary": "Tasked with either opening, closing, or sometimes both. Ensure smooth operations of multiple facets of the restaurunt, train and manage new front of house staff, and general bartending tasks were some of my most prominent roles here.",
         "location": "Madison, SD",
         "highlights": []
       },
@@ -64,35 +65,35 @@
     ],
     "projects": [
       {
-        "name": "Resonant Soundscapes",
+        "name": "Resonant Landscapes",
         "description": "Dr. Tate Carson and I traveled to all 13 state parks in South Dakota and took ambisonics recordings at each park. We then created a web app that placed them geospatially, almost like pokemon go, across DSU campus as they are laid out in South Dakota. We also made compositions from the recordings. Linked below is our published research paper on this project.",
-         "url": "https://maestro.acm.org/trk/clickp?ref=z16l2snue3_2-316ea_0x33ae25x0589&doi=3678299.3678354"
+        "url": "https://maestro.acm.org/trk/clickp?ref=z16l2snue3_2-316ea_0x33ae25x0589&doi=3678299.3678354",
+        "urlLabel": "Resonant Landscapes Research Paper"
       },
       {
         "name": "P.A.C.E.",
         "description": "Prototyping-System for Audiovisual Creative Endeavors, a passion project of mine I constructed and coded myself and presented at the 2025 research symposium. Uses Python, Arduino, SuperCollider, and Processing as main programming languages",
-        "url": "https://linkfr.ee/pace"
+        "url": "https://linkfr.ee/pace",
+        "urlLabel": "P.A.C.E. Project Site"
       }
     ],
     "education": [
       {
         "institution": "Dakota State University",
         "area": "Digital Sound Design",
-        "studyType": "Undergraduate",
+        "studyType": "B.S.",
         "location": "Madison, SD",
         "startDate": "2021",
         "endDate": "2025",
-        "score": "Completed",
         "courses": ["Audio Production I - III", "Recording Sessions", "Audio Forensics"]
       },
       {
         "institution": "Dakota State University",
         "area": "Artificial Intelligence",
-        "studyType": "Undergraduate",
+        "studyType": "B.S",
         "location": "Madison, SD",
         "startDate": "2022",
         "endDate": "2025",
-        "score": "Completed",
         "courses": ["Predictive Analytics", "Applications of Deep Learning", "Algorithms"]
       },
       {
@@ -101,7 +102,6 @@
         "studyType": "Certificate",
         "location": "Madison, SD",
         "endDate": "2025",
-        "score": "Completed",
         "courses": ["Creative Coding", "Interdisciplinary Coding"]
       }
     ],
@@ -151,42 +151,34 @@
       {
         "name": "Python",
         "level": "Advanced",
-        "keywords": ["AI, ML, Data Analysis"]
+        "keywords": ["Programming Languages"]
       },
       {
-        "name": "C, C#, C++",
+        "name": "C",
         "level": "Intermediate",
-        "keywords": ["coding"]
+        "keywords": ["Programming Languages"]
       },
       {
         "name": "Supercollider",
         "level": "Advanced",
-        "keywords": ["audio, coding"]
+        "keywords": ["Programming Languages", "Audio Related"]
       },
       {
         "name": "Reaper",
         "level": "Advanced",
-        "keywords": ["audio, DAW, production, recording, mixing"]
+        "keywords": ["Audio Related"]
       },
-      {
-        "name": "Javascript",
-        "level": "Intermediate",
-        "keywords": ["coding, projects"]
-      },
-      {"name": "Ableton"},
-      {"name": "Linux, Windows, Mac"},
-      {"name": "Git"},
-      {"name": "Raspberry Pi"},
-      {"name": "Arduino / Simple Robotics"},
+      {"name": "Javascript", "level": "Intermediate", "keywords": ["Programming Languages"]},
+      {"name": "Ableton", "level": "Intermediate", "keywords": ["Audio Related"]},
+      {"name": "Linux", "level":"Intermediate", "keywords": ["CS / ML"]},
+      {"name": "Windows", "level":"Advanced", "keywords": ["CS / ML"]},
+      {"name": "Mac", "level":"Intermediate", "keywords": ["CS / ML"]},
+      {"name": "Git", "level": "Advanced", "keywords": ["CS / ML"]},
+      {"name": "Raspberry Pi", "level": "Advanced", "keywords": ["CS / ML"]},
+      {"name": "Arduino / Simple Robotics", "level": "Advanced", "keywords": ["CS / ML"]},
       {"name": "Documentation"},
-      {"name": "Live Sound Mixing"},
-      {"name": "Data Analysis"}
-    ],
-    "softSkills": [
-      {"name": "Creative"},
-      {"name": "Adaptable"},
-      {"name": "Quick-Learner"},
-      {"name": "Highly Sociable"}
+      {"name": "Live Sound Mixing", "level": "Advanced", "keywords": ["Audio Related"]},
+      {"name": "Data Analysis", "level": "Advanced", "keywords": ["CS / ML"]}
     ],
     "languages": [
       {
@@ -196,20 +188,6 @@
       {
         "language": "Spanish",
         "fluency": "Intermediate"
-      }
-    ],
-    "interests": [
-      {
-        "name": "Music",
-        "keywords": ["audio, DAW, production, recording, mixing"]
-      },
-      {
-        "name": "Coding",
-        "keywords": ["Projects, Software, AI, ML, Data Analysis"]
-      },
-      {
-        "name": "Reading",
-        "keywords": ["Philosophy, Psychology, Poltiical Science, Sociology, History"]
       }
     ],
     "meta": {
