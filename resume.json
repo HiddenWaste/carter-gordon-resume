@@ -2,7 +2,6 @@
     "basics": {
       "name": "Gordon Carter",
       "label": "Programmer, Researcher, Designer",
-      "image": "https://imgur.com/a/AvnjlqS",
       "email": "cartergordon13@gmail.com",
       "phone": "605-940-4177",
       "location": {
@@ -67,11 +66,12 @@
       {
         "name": "Resonant Soundscapes",
         "description": "Dr. Tate Carson and I traveled to all 13 state parks in South Dakota and took ambisonics recordings at each park. We then created a web app that placed them geospatially, almost like pokemon go, across DSU campus as they are laid out in South Dakota. We also made compositions from the recordings. Linked below is our published research paper on this project.",
-         "url": "https://example.com"
+         "url": "https://maestro.acm.org/trk/clickp?ref=z16l2snue3_2-316ea_0x33ae25x0589&doi=3678299.3678354"
       },
       {
         "name": "P.A.C.E.",
-        "description": "Prototyping-System for Audiovisual Creative Endeavors, a passion project of mine I constructed and coded myself and presented at the 2025 research symposium. Uses Python, Arduino, SuperCollider, and Processing as main programming languages"
+        "description": "Prototyping-System for Audiovisual Creative Endeavors, a passion project of mine I constructed and coded myself and presented at the 2025 research symposium. Uses Python, Arduino, SuperCollider, and Processing as main programming languages",
+        "url": "https://linkfr.ee/pace"
       }
     ],
     "education": [
