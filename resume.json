@@ -174,17 +174,13 @@
       {"name": "Documentation"},
       {"name": "Live Sound Mixing", "level": "Advanced", "keywords": ["Audio Related"]},
       {"name": "Data Analysis", "level": "Advanced", "keywords": ["CS / ML"]},
-      {"name": "Web Development", "level":"Intermediate", "keywords": ["CS / ML"]}
+      {"name": "Web Development", "level":"Intermediate", "keywords": ["CS / ML"]},
+      {"name": "Spanish (Intermediate)",  "level":"Intermediate"}
     ],
-    "languages": [
-      {
-        "language": "English",
-        "fluency": "Fluent"
-      },
-      {
-        "language": "Spanish",
-        "fluency": "Intermediate"
-      }
+    "Relevant Coursework": [
+      {"name": "Data Structures"},
+      {"name": "Parallel Computing"},
+      {"name": ""}
     ],
     "meta": {
       "template": "classic",
