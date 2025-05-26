@@ -29,7 +29,7 @@
         "company": "The Office Bar and Grill",
         "startDate": "August 2022",
         "endDate": "May 2025",
-        "summary": "Tasked with either opening, closing, or sometimes both. Ensure smooth operations of multiple facets of the restaurunt, train and manage new front of house staff, and general bartending tasks were some of my most prominent roles here.",
+        "summary": "Tasked with either opening, closing, or sometimes both. Ensure smooth operations of multiple facets of the restaurant, train and manage new front of house staff, and general bartending tasks were some of my most prominent roles here.",
         "location": "Madison, SD",
         "highlights": []
       },
@@ -66,7 +66,7 @@
     "projects": [
       {
         "name": "Resonant Landscapes",
-        "description": "Dr. Tate Carson and I traveled to all 13 state parks in South Dakota and took ambisonics recordings at each park. We then created a web app that placed them geospatially, almost like pokemon go, across DSU campus as they are laid out in South Dakota. We also made compositions from the recordings. Linked below is our published research paper on this project.",
+        "description": "Dr. Tate Carson and I traveled to all 13 state parks in South Dakota and took ambisonics recordings at each park. We then created a web app that placed them geospatially, almost like pokemon go, across DSU campus as they are laid out in South Dakota. We also made compositions from the recordings.",
         "url": "https://maestro.acm.org/trk/clickp?ref=z16l2snue3_2-316ea_0x33ae25x0589&doi=3678299.3678354",
         "urlLabel": "Resonant Landscapes Research Paper"
       },
@@ -79,7 +79,7 @@
     ],
     "education": [
       {
-        "institution": "Dakota State University",
+        "institution": "DSU",
         "area": "Digital Sound Design",
         "studyType": "B.S.",
         "location": "Madison, SD",
@@ -88,7 +88,7 @@
         "courses": ["Audio Production I - III", "Recording Sessions", "Audio Forensics"]
       },
       {
-        "institution": "Dakota State University",
+        "institution": "DSU",
         "area": "Artificial Intelligence",
         "studyType": "B.S",
         "location": "Madison, SD",
@@ -97,7 +97,7 @@
         "courses": ["Predictive Analytics", "Applications of Deep Learning", "Algorithms"]
       },
       {
-        "institution": "Dakota State University",
+        "institution": "DSU",
         "area": "Creative Coding",
         "studyType": "Certificate",
         "location": "Madison, SD",
@@ -153,16 +153,8 @@
         "level": "Intermediate",
         "keywords": ["Programming Languages"]
       },
-      {
-        "name": "Supercollider",
-        "level": "Advanced",
-        "keywords": ["Programming Languages", "Audio Related"]
-      },
-      {
-        "name": "Reaper",
-        "level": "Advanced",
-        "keywords": ["Audio Related"]
-      },
+      {"name": "Supercollider","level": "Advanced","keywords": ["Programming Languages", "Audio Related"]},
+      {"name": "Reaper","level": "Advanced","keywords": ["Audio Related"]},
       {"name": "Javascript", "level": "Intermediate", "keywords": ["Programming Languages"]},
       {"name": "Ableton", "level": "Intermediate", "keywords": ["Audio Related"]},
       {"name": "Linux", "level":"Intermediate", "keywords": ["CS / ML"]},
@@ -178,12 +170,35 @@
       {"name": "Spanish (Intermediate)",  "level":"Intermediate"}
     ],
     "Relevant Coursework": [
-      {"name": "Data Structures"},
-      {"name": "Parallel Computing"},
-      {"name": ""}
+      {"name": "Data Structures", "tags": ["Computer Science"]  },
+      {"name": "Parallel Computing", "tags": ["Computer Science"]},
+      {"name": "Object Oriented Programming", "tags": ["Computer Science"]},
+      {"name": "Hardware and Virtualization", "tags": ["Computer Science"]},
+      {"name": "Computer Science I, II", "tags": ["Computer Science"]},
+      {"name": "Algorithms and Optimization", "tags": ["Computer Science"]},
+      {"name": "Creative Coding", "tags": ["Computer Science", "Creative"]},
+      {"name": "Interdisciplinary Coding", "tags": ["Computer Science"]  },
+      
+      {"name": "Predictive Analytics", "tags": ["ML"]},
+      {"name": "Programming for Analytics", "tags": ["ML"]},
+      {"name": "Intro: Artificial Intelligence", "tags": ["ML"]},
+      {"name": "Applications of Deep Learning", "tags": ["ML"]},
+      {"name": "Math Foundations of AI", "tags": ["ML"]},      {"name": "Artificial Intelligence", "tags": ["ML"]},
+      {"name": "AI Music", "tags": ["ML", "Sound Design", "Creative"]},
+      {"name": "Applied AI", "tags": ["ML"]},
+
+      {"name": "Audio Production I, II, III", "tags": ["Sound Design"]},
+      {"name": "Sound Design for Film", "tags": ["Sound Design"]},
+      {"name": "Recording Sessions", "tags": ["Sound Design"]},
+      {"name": "Sound Design for Games", "tags": ["Sound Design"]},
+      {"name": "Sound Forensics", "tags": ["Sound Design"]},
+      {"name": "Undergrad Research", "tags": ["Sound Design"]},
+
+      {"name": "Singer Songwriter Studio", "tags": ["Sound Design", "Creative"]  }
     ],
     "meta": {
-      "template": "classic",
-      "lang": "en"
-    }
+  "template": "classic",
+  "lang": "en",
+  "courseworkFilter": ["ML", "Computer Science"]
+}
   }

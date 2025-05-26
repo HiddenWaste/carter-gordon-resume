@@ -1,0 +1,24 @@
+{{if .RelevantCoursework}}
+    <div class="coursework">
+        <div class="subtitle">Relevant Coursework</div>
+        <div class="item">
+            {{range $index, $course := .RelevantCoursework}}
+                {{$showCourse := false}}
+                {{if not $.Meta.CourseworkFilter}}
+                    {{$showCourse = true}}
+                {{else}}
+                    {{range $courseTag := $course.Tags}}
+                        {{range $filterTag := $.Meta.CourseworkFilter}}
+                            {{if eq $courseTag $filterTag}}
+                                {{$showCourse = true}}
+                            {{end}}
+                        {{end}}
+                    {{end}}
+                {{end}}
+                {{if $showCourse}}
+                    <span class="value">{{$course.Name}}, </span>
+                {{end}}
+            {{end}}
+        </div>
+    </div>
+{{end}}

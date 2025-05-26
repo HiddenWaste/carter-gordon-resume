@@ -11,6 +11,7 @@ type Resume struct {
 	Education    []Education    `json:"education"`
 	Certificates []Certificate  `json:"certificates"`
 	Skills       []Skill        `json:"skills"`
+	RelevantCoursework []Coursework `json:"Relevant Coursework"`
 	SoftSkills   []Skill        `json:"softSkills"`
 	Languages    []Language     `json:"languages"`
 	Interests    []Interest     `json:"interests"`
@@ -120,9 +121,15 @@ type AwardCategory struct {
     Items    []Award `json:"items"`
 }
 
+type Coursework struct {
+    Name string   `json:"name"`
+    Tags []string `json:"tags"`
+}
+
 type Meta struct {
-	Template string `json:"template"`
-	Lang     string `json:"lang"`
+    Template        string   `json:"template"`
+    Lang            string   `json:"lang"`
+    CourseworkFilter []string `json:"courseworkFilter"`
 }
 
 type ResumeLabels struct {
