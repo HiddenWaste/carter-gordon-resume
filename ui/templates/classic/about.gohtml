@@ -1,0 +1,13 @@
+<div class="about">
+    <div class="name">
+        <div>{{getLastName .Name}} {{getFirstName .Name}}<br></div>
+    </div>
+
+    <div class="job-position">{{ .Label }}</div>
+
+    {{if .Summary}}
+        <div class="profile-desc">
+            {{ .Summary }}
+        </div>
+    {{end}}
+</div>

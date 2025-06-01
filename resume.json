@@ -2,15 +2,13 @@
     "basics": {
       "name": "Gordon Carter",
       "label": "Programmer, Researcher, Designer",
-      "image": "https://imgur.com/a/AvnjlqS",
       "email": "cartergordon13@gmail.com",
       "phone": "605-940-4177",
       "location": {
-        "city": "Madison",
+        "city": "Brandon, SD",
         "countryCode": "US"
       },
-      "url": "hiddenwaste.github.io",
-      "summary": "Undergraduate student in Digital Sound Design and Artificial Intelligence.",
+      "summary": "B.S. in Artificial Intelligence, B.S. in Digital Sound Design, and a Creative Coding Certificate",
       "profiles": [
         {
           "network": "LinkedIn",
@@ -21,11 +19,6 @@
           "network": "GitHub",
           "username": "HiddenWaste",
           "url": "https://github.com/HiddenWaste"
-        },
-        {
-          "network": "Spotify",
-          "username": "cartergordon13",
-          "url": "https://open.spotify.com/user/cartergordon13"
         }
       ]
     },
@@ -34,12 +27,13 @@
         "position": "Bartender",
         "company": "The Office Bar and Grill",
         "startDate": "August 2022",
-        "summary": "Tasked with either opening, closing, or sometimes both. Ensure smooth operations of multiple facets of the resturaunt, train and manage new front of house staff, and general bartending tasks were some of my most prominent roles here.",
+        "endDate": "May 2025",
+        "summary": "Tasked with either opening, closing, or sometimes both. Ensure smooth operations of multiple facets of the restaurant, train and manage new front of house staff, and general bartending tasks were some of my most prominent roles here.",
         "location": "Madison, SD",
         "highlights": []
       },
       {
-        "position": "Audio Engineer",
+        "position": "Sound Engineer",
         "company": "Madison High-School",
         "startDate": "September 2024",
         "endDate": "November 2024",
@@ -70,126 +64,140 @@
     ],
     "projects": [
       {
-        "name": "Resonant Soundscapes",
+        "name": "Resonant Landscapes",
         "description": "Dr. Tate Carson and I traveled to all 13 state parks in South Dakota and took ambisonics recordings at each park. We then created a web app that placed them geospatially, almost like pokemon go, across DSU campus as they are laid out in South Dakota. We also made compositions from the recordings.",
-         "url": "https://example.com"
+        "url": "https://maestro.acm.org/trk/clickp?ref=z16l2snue3_2-316ea_0x33ae25x0589&doi=3678299.3678354",
+        "urlLabel": "Resonant Landscapes Research Paper"
       },
       {
-        "name": "P.A.C.E",
-        "description": "A Prototyping-system for Audiovisual Creative Endeavors. A system I have designed and built to create unique audiovisual interactions",
-        "url": "https://example.com"
+        "name": "P.A.C.E.",
+        "description": "Prototyping-System for Audiovisual Creative Endeavors, a passion project of mine I constructed and coded myself and presented at the 2025 research symposium. Uses Python, Arduino, SuperCollider, and Processing as main programming languages. The goal was to create a new platform for audiovisual art and to explore possible interactions in the creative coding space.",
+        "url": "https://linkfr.ee/pace",
+        "urlLabel": "P.A.C.E. Project Site"
       }
     ],
     "education": [
       {
-        "institution": "Dakota State University",
+        "institution": "DSU",
         "area": "Digital Sound Design",
-        "studyType": "Undergraduate",
+        "studyType": "B.S.",
         "location": "Madison, SD",
         "startDate": "2021",
         "endDate": "2025",
-        "score": "In-Progress",
         "courses": ["Audio Production I - III", "Recording Sessions", "Audio Forensics"]
       },
       {
-        "institution": "Dakota State University",
+        "institution": "DSU",
         "area": "Artificial Intelligence",
-        "studyType": "Undergraduate",
+        "studyType": "B.S",
         "location": "Madison, SD",
         "startDate": "2022",
         "endDate": "2025",
-        "score": "In-Progress",
         "courses": ["Predictive Analytics", "Applications of Deep Learning", "Algorithms"]
       },
       {
-        "institution": "Dakota State University",
+        "institution": "DSU",
         "area": "Creative Coding",
         "studyType": "Certificate",
         "location": "Madison, SD",
         "endDate": "2025",
-        "score": "In-Progress",
         "courses": ["Creative Coding", "Interdisciplinary Coding"]
       }
     ],
     "awards": [
+  {
+    "category": "Research Excellence",
+    "items": [
       {
         "title": "Research Symposium: 1st Place Research Poster",
-        "date": "4-18-24",
-        "issued-by": "Dakota State University",
-        "summary": "1st place for the poster design for Resonant Landscapes, my SRI research project with Dr. Tate Carson. Further explained in Projects, and relative website."
+        "date": "2024"
       },
       {
-        "title": "MUDAC 2024",
-        "date": "4-06-24",
-        "issued-by": "Minnesota State, Mankato"
-      },
-      {
-        "title": "DSU Data Analytics Competition 4th Place",
-        "date": "3-18-24",
-        "issued-by": "Dakota State University"
+        "title": "Research Symposium: Presenter",
+        "date": "2025"
       }
-    ],
+    ]
+  },
+  {
+    "category": "Competition Achievements",
+    "items": [
+      {
+        "title": "MICS Programming Competition: 3rd Place",
+        "date": "2025"
+      },
+      {
+        "title": "DSU Data Analytics Competition: 4th Place",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "category": "Professional Recognition",
+    "items": [
+      {
+        "title": "Guest Speaker, CSC379",
+        "date": "Spring 2025"
+      }
+    ]
+  }
+],
     "skills": [
       {
         "name": "Python",
         "level": "Advanced",
-        "keywords": ["AI, ML, Data Analysis"]
+        "keywords": ["Programming Languages"]
       },
       {
-        "name": "C, C#, C++",
+        "name": "C",
         "level": "Intermediate",
-        "keywords": ["coding"]
+        "keywords": ["Programming Languages"]
       },
-      {
-        "name": "Supercollider",
-        "level": "Intermediate",
-        "keywords": ["audio, coding"]
-      },
-      {
-        "name": "Reaper",
-        "level": "Advanced",
-        "keywords": ["audio, DAW, production, recording, mixing"]
-      },
-      {
-        "name": "Javascript",
-        "level": "Intermediate",
-        "keywords": ["coding, projects"]
-      },
-      {"name": "Ableton"},
-      {"name": "Linux, Windows, Mac"},
-      {"name": "Git"},
-      {"name": "Raspberry Pi"},
-      {"name": "Arduino / Simple Robotics"},
+      {"name": "Supercollider","level": "Advanced","keywords": ["Programming Languages", "Audio Related"]},
+      {"name": "Reaper","level": "Advanced","keywords": ["Audio Related"]},
+      {"name": "Javascript", "level": "Intermediate", "keywords": ["Programming Languages"]},
+      {"name": "Ableton", "level": "Intermediate", "keywords": ["Audio Related"]},
+      {"name": "Linux", "level":"Intermediate", "keywords": ["CS / ML"]},
+      {"name": "Windows", "level":"Advanced", "keywords": ["CS / ML"]},
+      {"name": "Mac", "level":"Intermediate", "keywords": ["CS / ML"]},
+      {"name": "Git", "level": "Advanced", "keywords": ["CS / ML"]},
+      {"name": "Raspberry Pi", "level": "Advanced", "keywords": ["CS / ML"]},
+      {"name": "Arduino / Simple Robotics", "level": "Advanced", "keywords": ["CS / ML"]},
       {"name": "Documentation"},
-      {"name": "Live Sound Mixing"},
-      {"name": "Data Analysis"}
+      {"name": "Live Sound Mixing", "level": "Advanced", "keywords": ["Audio Related"]},
+      {"name": "Data Analysis", "level": "Advanced", "keywords": ["CS / ML"]},
+      {"name": "Web Development", "level":"Intermediate", "keywords": ["CS / ML"]},
+      {"name": "Spanish (Intermediate)",  "level":"Intermediate"}
     ],
-    "languages": [
-      {
-        "language": "English",
-        "fluency": "Fluent"
-      },
-      {
-        "language": "Spanish",
-        "fluency": "Intermediate"
-      }
-    ],
-    "interests": [
-      {
-        "name": "Music",
-        "keywords": ["audio, DAW, production, recording, mixing"]
-      },
-      {
-        "name": "Coding",
-        "keywords": ["Projects, Software, AI, ML, Data Analysis"]
-      },
-      {
-        "name": "Reading",
-        "keywords": ["Philosophy, Psychology, Poltiical Science, Sociology, History"]
-      }
+    "Relevant Coursework": [
+      {"name": "Data Structures", "tags": ["Computer Science"]  },
+      {"name": "Parallel Computing", "tags": ["Computer Science"]},
+      {"name": "Object Oriented Programming", "tags": ["Computer Science"]},
+      {"name": "Hardware and Virtualization", "tags": ["Computer Science"]},
+      {"name": "Computer Science I, II", "tags": ["Computer Science"]},
+      {"name": "Algorithms and Optimization", "tags": ["Computer Science"]},
+      {"name": "Creative Coding", "tags": ["Computer Science", "Creative"]},
+      {"name": "Interdisciplinary Coding", "tags": ["Computer Science"]  },
+      
+      {"name": "Predictive Analytics", "tags": ["ML"]},
+      {"name": "Programming for Analytics", "tags": ["ML"]},
+      {"name": "Intro: Artificial Intelligence", "tags": ["ML"]},
+      {"name": "Applications of Deep Learning", "tags": ["ML"]},
+      {"name": "Math Foundations of AI", "tags": ["ML"]},      {"name": "Artificial Intelligence", "tags": ["ML"]},
+      {"name": "AI Music", "tags": ["ML", "Sound Design", "Creative"]},
+      {"name": "Applied AI", "tags": ["ML"]},
+
+      {"name": "Audio Production I, II, III", "tags": ["Sound Design"]},
+      {"name": "Sound Design for Film", "tags": ["Sound Design"]},
+      {"name": "Recording Sessions", "tags": ["Sound Design"]},
+      {"name": "Sound Design for Games", "tags": ["Sound Design"]},
+      {"name": "Sound Forensics", "tags": ["Sound Design"]},
+      {"name": "Undergrad Research", "tags": ["Sound Design"]},
+
+      {"name": "Singer Songwriter Studio", "tags": ["Sound Design", "Creative"]  }
     ],
     "meta": {
-      "template": "classic",
-      "lang": "en"
-    }
+  "template": "classic",
+  "lang": "en",
+  "courseworkFilter": ["ML", "Computer Science"]
+}
   }
