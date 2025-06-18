@@ -11,6 +11,10 @@
       "summary": "B.S. in Artificial Intelligence, B.S. in Digital Sound Design, and a Creative Coding Certificate",
       "profiles": [
         {
+          "network": "Portfolio Site",
+          "url": "https://cartergordon.netlify.app"
+        },
+        {
           "network": "LinkedIn",
           "username": "Carter Gordon",
           "url": "https://www.linkedin.com/in/carter-gordon/"
